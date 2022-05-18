@@ -12,7 +12,7 @@ root.render(
       styles={css`
         body {
           margin: 0;
-          font-family: 'Inter', sans-serif;
+          font-family: 'Forum', 'Cormorant Garamond', serif;
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
         }
