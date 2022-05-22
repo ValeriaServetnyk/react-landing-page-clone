@@ -19,7 +19,6 @@ const heroPageStyles = css`
 background-color: rgba(0, 122, 255, 1);
 max-width: 1280px;
 width: 100%;
-
 `;
 
 const heroTextContainer = css`
@@ -29,15 +28,11 @@ display: flex;
 flex-direction: row;
 padding-left: 8rem;
 gap: 171px;
-
-
 `;
 
 const heroAppIcon = css`
 width: 80px;
 margin-top: 6rem;
-
-
 `;
 
 const heroAppStore = css`
@@ -84,7 +79,6 @@ padding-right: 3rem;
 padding-bottom: 5rem;
 gap: 180px;
 width: 85%;
-
 `;
 
 const redPhoneIcon = css`
@@ -130,12 +124,12 @@ flex-direction: row;
 padding-left: 8rem;
 gap: 171px;
 padding-bottom: 5rem;
-
 `;
 
 const blackPhoneIcon = css`
 width: 395px;
-height: 610px;`;
+height: 610px;
+`;
 
 const blackHeaderStyles = css`
 font-size: 30px;
@@ -176,7 +170,6 @@ const secondCommentPic = css`
 width: auto;
 height: 1.25rem;
 margin-top: 1.5rem;
-
 `;
 
 const thirdCommentPic = css`
@@ -195,7 +188,6 @@ const fifthCommentPic = css`
 width: auto;
 height: 2rem;
 margin-top: 0.8rem;
-
 `;
 
 const sixthCommentPic = css`
@@ -212,11 +204,6 @@ padding-top: 3rem;
 padding-bottom: 3rem;
 padding-left: 8rem;
 gap: 2rem;
-
-
-
-
-
 `;
 
 const whiteHeaderStyles = css`
@@ -234,8 +221,6 @@ text-decoration: none;
 font-size: 20px;
 font-weight: 300;
 color: rgba(0,0,0);
-
-
 `;
 
 const commentSectionStyles = css`
@@ -269,7 +254,6 @@ const blueSectionStyles = css`
 background-color: rgba(0,122,255,1);
 padding: 1.5rem 2rem 1rem 2rem;
 border-radius: 0.75rem;
-
 `;
 
 const blueSectionText = css`
@@ -287,7 +271,6 @@ const yellowSectionStyles = css`
 background-color: rgba(255,184,0,1);
 padding: 1.5rem 2rem 1rem 2rem;
 border-radius: 0.75rem;
-
 `;
 
 const yellowSectionText = css`
@@ -305,7 +288,6 @@ const pinkSectionStyles = css`
 background-color: rgba(255,45,85,1);
 padding: 1.5rem 6rem 1rem 2rem;
 border-radius: 0.75rem;
-
 `;
 
 const pinkSectionText = css`
@@ -323,7 +305,6 @@ const blackSectionStyles = css`
 background-color: rgba(0,0,0,1);
 padding: 1.5rem 4rem 1rem 2rem;
 border-radius: 0.75rem;
-
 `;
 
 const blackSectionText = css`
@@ -341,7 +322,6 @@ const purpleSectionStyles = css`
 background-color: rgba(112,0,255,1);
 padding: 1.5rem 2rem 1rem 2rem;
 border-radius: 0.75rem;
-
 `;
 
 const purpleSectionText = css`
@@ -359,7 +339,6 @@ const whiteSectionStyles = css`
 background-color: rgba(255,255,255,1);
 padding: 1.5rem 2rem 1rem 2rem;
 border-radius: 0.75rem;
-
 `;
 
 const whiteSectionText = css`
@@ -385,7 +364,6 @@ margin-top: 0;
 padding-top: 2rem;
 padding-bottom: 1rem;
 
-
 li > a {
     text-decoration: none;
     color: rgba(0,0,0,0.75);
@@ -405,7 +383,6 @@ display: flex;
 justify-content: center;
 gap: 1.5rem;
 padding-bottom: 2rem;
-
 `;
 
 const footerIcons =css`
@@ -446,9 +423,7 @@ function App() {
 <p css={redParagraphStyles}>Unread messages appear in a stack of cards, like this.</p>
 </div>
 </section>
-
 </section>
-
 <section css={blackPageStyles}>
 <section css={blackTextContainer}>
 <div>
@@ -463,10 +438,7 @@ function App() {
 </div>
 </section>
 </section>
-
-
 <section css={greyPageStyles}>
-
 <div css={colorosContainer}>
   <div css={blueSectionStyles}>
   <div>
@@ -481,9 +453,6 @@ iCloud & IMAP
     </h1>
     </div>
   </div>
-
-
-
   <div css={yellowSectionStyles}>
   <div>
     <svg css={secondContainerIcon} className="h-8 w-8 lg:h-12 lg:w-12 mb-4" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" />
@@ -496,13 +465,12 @@ happens on device
     </h1>
     </div>
   </div>
-
-
   <div css={pinkSectionStyles}>
   <div>
     <svg css={thirdContainerIcon} className="h-8 w-8 lg:h-12 lg:w-12 mb-4" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" />
             <path d="M0 24C0 10.7452 10.7452 0 24 0V0C37.2548 0 48 10.7452 48 24V24C48 37.2548 37.2548 48 24 48V48C10.7452 48 0 37.2548 0 24V24Z" fill="white" fillOpacity="0.3" />
             <path d="M13.7422 26.4062C13.7422 30.6719 16.168 32.5234 23.0352 36.1094C23.3398 36.2617 23.6797 36.3672 23.9141 36.3672C24.1484 36.3672 24.4883 36.2617 24.8047 36.1094C31.6602 32.5352 34.0977 30.6719 34.0977 26.4062V17.7344C34.0977 16.0586 33.5352 15.3789 32.082 14.7578C30.9219 14.2656 26.6562 12.8359 25.5664 12.4844C25.0508 12.3203 24.418 12.2148 23.9141 12.2148C23.4102 12.2148 22.7773 12.3437 22.2617 12.4844C21.1836 12.7891 16.9062 14.2773 15.7578 14.7578C14.293 15.3789 13.7422 16.0586 13.7422 17.7344V26.4062ZM24.043 33.2734V15.0039C24.2422 15.0156 24.4297 15.0625 24.7812 15.1797C26 15.6367 29.1875 16.7383 30.8633 17.3594C31.1914 17.4883 31.2969 17.6758 31.2969 18.1211V25.9609C31.2969 29.1367 29.5977 30.0273 24.5 33.0625C24.2773 33.1914 24.1602 33.25 24.043 33.2734Z" fill="white" />
+
     </div>
     <div>
     <h1 css={pinkSectionText}>Your data is
@@ -510,9 +478,6 @@ yours to stay
     </h1>
     </div>
   </div>
-
-
-
   <div css={blackSectionStyles}>
   <div>
     <svg css={forthContainerIcon} className="h-8 w-8 lg:h-12 lg:w-12 mb-4" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" />
@@ -540,14 +505,11 @@ for more features.
     </h1>
     </div>
   </div>
-
-
   <div css={whiteSectionStyles}>
   <div>
     <svg css={sixthContainerIcon} className="h-8 w-8 lg:h-12 lg:w-12 mb-4" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" />
             <path d="M0 24C0 10.7452 10.7452 0 24 0V0C37.2548 0 48 10.7452 48 24V24C48 37.2548 37.2548 48 24 48V48C10.7452 48 0 37.2548 0 24V24Z" fill="black" fillOpacity="0.05" />
             <path d="M12.311 32.6338L14.1016 34.4336C15.0664 35.3984 16.2539 35.3335 17.2559 34.2202L27.3218 23.0874C27.6001 23.1523 27.8877 23.1431 28.2217 23.0688L29.0195 22.9111L29.437 23.3379L29.3906 23.7832C29.335 24.3027 29.5298 24.7666 30.0493 25.2769L30.7822 26.0005C31.3853 26.5942 32.1553 26.6221 32.7212 26.0562L35.5508 23.2173C36.126 22.6421 36.0981 21.8813 35.5044 21.2876L34.7715 20.5454C34.2705 20.0352 33.8066 19.8403 33.2871 19.8867L32.8325 19.9331L32.4243 19.5342L32.6099 18.6992C32.7676 17.9478 32.582 17.4189 31.8398 16.6768L29.8916 14.7378C26.6074 11.4536 21.9502 11.4072 18.9907 14.3667C18.5176 14.8306 18.4897 15.4707 18.7402 15.9346C19.0186 16.417 19.6123 16.7417 20.373 16.5469C21.7646 16.1943 23.0728 16.2129 24.251 16.9272L23.7778 18.1147C23.6108 18.5415 23.5552 18.9126 23.6108 19.2651L12.5059 29.4795C11.4204 30.4722 11.3462 31.6597 12.311 32.6338ZM21.2266 14.8584C23.416 13.5132 26.2549 13.9399 28.1846 15.8789L30.3926 18.0684C30.6245 18.3003 30.6616 18.4951 30.606 18.8198L30.3462 20.1743L31.9419 21.7607L32.8696 21.7144C33.0645 21.7144 33.1294 21.7329 33.2778 21.8721L33.6118 22.2061L31.6729 24.145L31.3389 23.811C31.1997 23.6719 31.1719 23.5977 31.1812 23.4028L31.2275 22.4844L29.6411 20.8887L28.2588 21.1113C27.9434 21.167 27.7671 21.1392 27.5352 20.9072L25.9209 19.293C25.6797 19.061 25.6147 18.8569 25.7446 18.5322L26.5889 16.5283C25.0859 15.0439 23.1377 14.5151 21.2822 14.979C21.1802 15.0068 21.1338 14.9233 21.2266 14.8584ZM15.1406 32.5039L14.2314 31.5854C13.9438 31.2979 13.9995 31.0845 14.2593 30.8525L24.7612 20.9072L25.7261 21.8813L15.8828 32.4854C15.6509 32.7358 15.4375 32.7915 15.1406 32.5039Z" fill="black" />
-
     </div>
     <div>
     <h1 css={whiteSectionText}>Built & maintained
@@ -557,7 +519,6 @@ by indie developers
   </div>
 </div>
 </section>
-
 <section css={whitePageStyles}>
 <h1 css={whiteHeaderStyles}>Praise for Triage 1</h1>
 <div css={feedbackContainer}>
@@ -572,8 +533,6 @@ by indie developers
     </div>
   </div>
 </a>
-
-
 <a href="/" css={feedbackIconsStyles}>
   <div css={commentSectionStyles}>
     <div>
@@ -586,8 +545,6 @@ by indie developers
   </div>
 </a>
 
-
-
 <a href="/" css={feedbackIconsStyles}>
   <div css={commentSectionStyles}>
     <div>
@@ -599,9 +556,6 @@ by indie developers
     </div>
   </div>
 </a>
-
-
-
 
 <a href="/" css={feedbackIconsStyles}>
   <div css={commentSectionStyles}>
@@ -628,8 +582,6 @@ by indie developers
   </div>
 </a>
 
-
-
 <a href="/" css={feedbackIconsStyles}>
   <div css={commentSectionStyles}>
     <div>
@@ -644,6 +596,7 @@ by indie developers
 </div>
 </section>
 </main>
+
 <nav>
   <ul css={navigationMenuStyles}>
   <li>
