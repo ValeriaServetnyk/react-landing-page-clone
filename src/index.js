@@ -8,23 +8,20 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Global
-      styles={css`
-        body {
-          margin: 0;
-          font-family: 'Forum', 'Cormorant Garamond', serif;
-          -webkit-font-smoothing: antialiased;
-          -moz-osx-font-smoothing: grayscale;
-        }
-        *,
+    <Global styles={css`body { margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+  *,
         ::before,
         ::after {
           box-sizing: border-box;
         }
-      `}
-    />
+  `}
+   />
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
